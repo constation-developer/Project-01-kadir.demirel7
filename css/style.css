@@ -11,7 +11,7 @@
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);;
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -67,12 +67,12 @@
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
     }
-}
+} 
 
 /*=================  Veriables Dark theme  =================*/
 body.dark-theme{
     /* HSL color mode */ 
-    --first-color-second: hsl(var(--hue-color), 30%, 8%);;
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 75%);
     --input-color: hsl(var(--hue-color), 29%, 16%);
@@ -191,6 +191,10 @@ img{
     align-items: center;
 }
 
+.logo__width{
+    max-width: 8rem;
+}
+
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
@@ -307,7 +311,6 @@ img{
 
 .home__blob-img{
     border-radius: 50%;
-    box-shadow: 0 0 50px 0px rgb(87, 178, 224, 0.6);
 }
 
 .home__data {
@@ -531,10 +534,6 @@ img{
     width: 10%;
 }
 
-.skills__git{
-    width: 1%;
-}
-
 .skills__react{
     width: 0%;
 }
@@ -548,7 +547,11 @@ img{
 }
 
 .skills__adobeai{
-    width: 40%;
+    width: 50%;
+}
+
+.skills__photoshop{
+    width: 15%;
 }
 
 .skills__sketch{
@@ -563,7 +566,19 @@ img{
     width: 0%;
 }
 
-.skills__photoshop{
+.skills__git{
+    width: 59%;
+}
+
+.skills__github{
+    width: 0%;
+}
+
+.skills__bit{
+    width: 0%;
+}
+
+.skills__tfs{
     width: 0%;
 }
 
@@ -908,6 +923,10 @@ img{
 .footer__title{
     font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
+}
+
+.footer__logo_width{
+    width: 10rem;
 }
 
 .footer__subtitle{
