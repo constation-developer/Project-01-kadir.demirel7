@@ -94,7 +94,7 @@ body.dark-theme{
 }
 
 .change-theme{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
     cursor: pointer;
@@ -223,8 +223,10 @@ img{
 }
 
 .nav__toggle{
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .nav__toggle:hover{
@@ -375,6 +377,11 @@ img{
 
 .home__scroll-arrow{
     font-size: 1.25rem;
+}
+
+#scroll__down-flex {
+    display: flex;
+    column-gap: .2rem;
 }
 
 /*===================  BUTTONS  ==================*/
@@ -575,28 +582,12 @@ img{
     width: 0%;
 }
 
-.skills__adobexd{
-    width: 0%;
-}
-
-.skills__adobeıd{
-    width: 0%;
-}
-
 .skills__git{
-    width: 68%;
+    width: 90%;
 }
 
 .skills__github{
-    width: 0%;
-}
-
-.skills__bit{
-    width: 0%;
-}
-
-.skills__tfs{
-    width: 0%;
+    width: 75%;
 }
 
 .skills__close .skills__list{
@@ -622,6 +613,7 @@ img{
 }
 
 .qualification__button{
+    display: flex;
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     cursor: pointer;
@@ -633,7 +625,7 @@ img{
 
 .qualification__icon{
     font-size: 1.8rem;
-    margin-right: var(--mb-0-25);
+    margin-right: var(--mb-0-5);
 }
 
 .qualification__data{
@@ -707,7 +699,7 @@ img{
 
 .services__icon{
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
@@ -721,6 +713,10 @@ img{
 .services__button{
     cursor: pointer;
     font-size: var(--small-font-size);
+}
+
+.services__flex {
+    display: flex;
 }
 
 .services__button:hover .button__icon{
@@ -822,6 +818,11 @@ img{
 .swiper-portfolio-icon{
     font-size: 2rem;
     color: var(--first-color);
+}
+
+.portfolio__flex {
+    display: flex;
+    width: max-content;
 }
 
 .swiper-button-prev{
@@ -995,12 +996,13 @@ img{
 
 /*=====================  SCROLL UP  =====================*/
 .scrollup{
+    display: flex;
     position: fixed;
     right: 1rem;
     bottom: -20%;
     background-color: var(--first-color);
     opacity: .8;
-    padding: .3rem .4rem;
+    padding: .4rem;
     border-radius: .4rem;
     z-index: var(--z-tooltip);
     transition: .4s;
@@ -1209,7 +1211,7 @@ img{
         justify-content: center;
     }
     .services__icon{
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
     .services__content{
         padding: 6rem 0 2rem 2.5rem;
